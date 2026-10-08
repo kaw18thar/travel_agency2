@@ -77,6 +77,12 @@ html {
   margin-bottom: 10px;
   font-weight: bold;
 }
+.box .price span {
+  font-size: 18px;
+  color: #b05e00;
+  cursor: pointer;
+  font-weight: 400;
+}
 .reviews {
   padding: 20px;
   background-color: #f9f9f9;
