@@ -4,25 +4,27 @@ html {
   font-family: "Rubik", sans-serif;
   box-sizing: border-box;
 }
-nav {
+.nav1 {
   background-color: #333;
   color: white;
+  display: sticky;
+  top: 0;
 }
-nav ul {
+.nav1 ul {
   list-style-type: none;
   margin: 10px;
   padding: 20px;
   display: flex;
   justify-content: space-around;
 }
-nav ul li {
+.nav1 ul li {
   position: relative;
 }
-nav ul li a {
+.nav1 ul li a {
   color: white;
   text-decoration: none;
 }
-nav ul li a::after {
+.nav1 ul li a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -33,12 +35,23 @@ nav ul li a::after {
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
-nav ul li a:hover::after {
+.nav1 ul li a:hover::after {
   transform: scaleX(1);
 }
 .logo {
   font-size: 24px;
   font-weight: bold;
+}
+.hero {
+  position: relative;
+  text-align: center;
+  color: #6b6b6b;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
 }
 .grid-container {
   display: grid;
