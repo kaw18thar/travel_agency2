@@ -77,15 +77,35 @@ html {
   margin-bottom: 10px;
   font-weight: bold;
 }
+.box .price {
+  margin-top: 10px;
+  position: relative;
+}
 .box .price span {
   font-size: 18px;
   color: #b05e00;
-  cursor: pointer;
   font-weight: 400;
+}
+.box .price button {
+  border: 1px solid rgb(0, 55, 207);
+  background-color: rgb(29, 96, 0);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box .price button:hover {
+  background-color: #333;
+}
+.box .price button:active {
+  position: relative;
+  top: 2px;
 }
 .reviews {
   padding: 20px;
   background-color: #f9f9f9;
+  justify-content: center;
   text-align: center;
 }
 .reviews h2 {
