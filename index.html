@@ -16,8 +16,23 @@
     <nav class="nav1">
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Destinations</a></li>
-        <li><a href="#">Packages</a></li>
+        <li class="dropdown">
+          <a href="#">Destinations</a>
+          <ul class="dropdown-menu">
+            <li><a href="#makkah">Makkah</a></li>
+            <li><a href="#jeddah">Jeddah</a></li>
+            <li><a href="#riyadh">Riyadh</a></li>
+            <li><a href="#dammam">Dammam</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Packages</a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> 3days</a></li>
+            <li><a href="#"> 5days</a></li>
+            <li><a href="#"> 7days</a></li>
+          </ul>
+        </li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -29,28 +44,28 @@
       <img src="images/hero2.jpg" alt="Beautiful travel destination" />
     </div>
     <div class="grid-container">
-      <div class="box">
+      <div id="jeddah" class="box">
         <span class="city">Jeddah</span>
         <img src="images/jeddah.webp" alt="Jeddah" />
         <div class="price">
           <span>$500~ 5 nights 4 days</span> <button>plan your trip</button>
         </div>
       </div>
-      <div class="box">
+      <div id="riyadh" class="box">
         <span class="city">Riyadh</span>
         <img src="images/riyadh.jpeg" alt="Riyadh" />
         <div class="price">
           <span>$500~ 5 nights 4 days</span> <button>plan your trip</button>
         </div>
       </div>
-      <div class="box">
+      <div id="dammam" class="box">
         <span class="city">Dammam</span>
         <img src="images/dammam.jpeg" alt="Dammam" />
         <div class="price">
           <span>$500~ 5 nights 4 days</span><button>plan your trip</button>
         </div>
       </div>
-      <div class="box">
+      <div id="makkah" class="box">
         <span class="city">Makkah </span>
         <img src="images/makkah.webp" alt="Mecca" />
         <div class="price">
